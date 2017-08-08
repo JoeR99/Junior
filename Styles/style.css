@@ -1,0 +1,122 @@
+body{
+  display: block;
+  overflow: hidden;
+}
+#ibody{
+  background: url("http://i.imgur.com/pk4MP7a.jpg");
+  background-size: 100%;
+  padding-top: 1px;
+}
+#footer p {
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  text-align: center;
+  color: #d8ffeb;
+  z-index: -1;
+  left: 490px;
+}
+header{
+  padding-top: 1em;
+}
+h2{
+  font-family: 'Pacifico', cursive, sans-serif;
+  text-align: center;
+  color: #9bffa6;
+  font-size: 2.3em;
+}
+.div ul{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.div li{
+  font-family: 'Lily Script One', cursive, sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  text-align: left;
+}
+.div a{
+  text-decoration: none;
+  color: #b4ffd5;
+  display: block;
+  padding-left: 15px;
+  border-bottom: 1px solid #888;
+  transition: .3s orange;
+}
+.div a:hover{
+  background-color: #e0e5bc;
+}
+.div a.active{
+  background-color: #aaa;
+  color: #444;
+  cursor: default;
+}
+.div li li{
+  font-size: .7em;
+}
+@media screen and (min-width: 950px){
+  .div li{
+    width: 130px;
+    border-bottom: none;
+    height: 50px;
+    font-size: 1.4em;
+    display: inline-block;
+    margin-right: -4px;
+  }
+  .div a{
+    border-bottom: none;
+  }
+  .div > ul > li{
+    text-align: center;
+ }
+  .div > ul > li > a{
+    padding-left: 0;
+  }
+  .div li ul{
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+  .div li:hover ul{
+    display: block;
+  }
+  .div li ul li{
+    display: block
+  }
+}
+#wrapper{
+  background-color: rgba(52, 99, 0,.15);
+  display: block;
+  max-width: 72em;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+#logo{
+  width: 100px;
+  height: auto;
+  float: left;
+  display: inline;
+  margin-left: 5.6em;
+  margin-right: 2em;
+  border: 3.5px solid #edeab4;
+  padding: 1em;
+  font-family: 'Galada', cursive;
+}
+#intro{
+  color: #f7ffb3;
+  font-family: 'Galada', cursive;
+  padding-top: 120px;
+  font-size: 20px;
+  text-align: center;
+  padding-right: 200px;
+}
+#p{
+  font-size: 1.3em;
+}
+#intro ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
