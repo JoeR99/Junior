@@ -155,7 +155,7 @@ h2{
   text-align: center;
   color: #d8ffeb;
   z-index: -1;
-  left: 490px;
+  left: 240px;
 }
 #fore{
   width: 500px;
@@ -167,4 +167,23 @@ h2{
   border: 3.5px solid #edeab4;
   padding: 1em;
   font-family: 'Galada', cursive;  
+}
+#music{
+  width: 500px;
+  height: auto;
+  float: left;
+}
+#pusic{
+  color: #f7ffb3;
+  font-family: 'Galada', cursive;
+  font-size: 20px;
+  text-align: center;
+  padding-right: 150px;
+}
+#puusic{
+  color: #ffffff;
+  font-family: 'Galada', cursive;
+  font-size: 20px;
+  text-align: center;
+  padding-right: 150px;
 }
