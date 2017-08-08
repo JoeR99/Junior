@@ -1,11 +1,19 @@
+/*
+  Assignment: Final Website Project
+  Author: Joseph Rathbun
+  Date: August 8, 2017
+  Filename: style.css
+  Description: CSS File
+  Dependencies: greenstar.jpg
+*/
 body{
   display: block;
-  overflow: hidden;
-}
-#ibody{
-  background: url("http://i.imgur.com/pk4MP7a.jpg");
+  background: url("../Images/greenstars.jpg");
   background-size: 100%;
   padding-top: 1px;
+  overflow-x: hidden;
+  overflow-y: visible;
+  position: static;
 }
 #footer p {
   text-align: center;
@@ -118,5 +126,45 @@ h2{
 }
 #intro ul{
   margin: 0;
-  padding: 0;
-  list-style-type: none;
+  padding-left: 40%;
+  list-style-type: square;
+}
+#before{
+  width: 400px;
+  height: auto;
+  float: left;
+  display: inline;
+  margin-left: 5.6em;
+  margin-right: 2em;
+  border: 3.5px solid #edeab4;
+  padding: 1em;
+  font-family: 'Galada', cursive;
+}
+#please{
+  color: #f7ffb3;
+  font-family: 'Galada', cursive;
+  padding-top: 120px;
+  font-size: 20px;
+  text-align: center;
+  padding-right: 150px;  
+}
+#footerhah{
+  text-align: center;
+  position: relative;
+  bottom: 40px;
+  text-align: center;
+  color: #d8ffeb;
+  z-index: -1;
+  left: 490px;
+}
+#fore{
+  width: 500px;
+  height: auto;
+  float: left;
+  display: inline;
+  margin-left: 5.6em;
+  margin-right: 2em;
+  border: 3.5px solid #edeab4;
+  padding: 1em;
+  font-family: 'Galada', cursive;  
+}
